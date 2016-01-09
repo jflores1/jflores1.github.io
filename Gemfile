@@ -12,6 +12,7 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem 'middleman', '~> 4.0.0'
 gem 'middleman-blog', '~> 4.0.0'
 gem 'middleman-sprockets', '~> 4.0.0.rc'
+gem 'middleman-deploy', '~> 1.0'
 
 # For feed.xml.builder
 gem 'builder', '~> 3.2.2'
