@@ -6,7 +6,8 @@ config[:casper] = {
   blog: {
     url: 'http://jesse-flores.com',
     name: 'Jesse Flores',
-    description: 'My Passionate Pursuit of Performance',
+    description: 'Passionate. Purpose-Driven. Pilgrim.',
+    cta: 'Life is a journey. Let\'s make it together. <br/> Get My Latest Experiments, Ideas, and Musings Delivered Straight to Your Inbox!',
     date_format: '%d %B %Y',
     navigation: true,
     logo: nil # Optional
@@ -15,12 +16,13 @@ config[:casper] = {
     name: 'Jesse Flores',
     bio: nil, # Optional
     location: nil, # Optional
-    website: nil, # Optional
+    website: 'http://jesse-flores.com', # Optional
     gravatar_email: 'jesse.flores@me.com', # Optional
-    twitter: nil # Optional
+    twitter: '@jflores1c' # Optional
   },
   navigation: {
-    "Home" => "/"
+    "Home" => "/",
+    "About Me" => "/about"
   }
 }
 
@@ -106,10 +108,10 @@ end
 activate :directory_indexes
 
 # Middleman-Syntax - https://github.com/middleman/middleman-syntax
-set :haml, { ugly: true }
+set :haml, { ugly: true, :format => :html5 }
 set :markdown_engine, :redcarpet
 set :markdown, fenced_code_blocks: true, smartypants: true, footnotes: true,
-  link_attributes: { rel: 'nofollow' }, tables: true
+  link_attributes: { rel: 'nofollow' }, tables: true, with_toc_data: true
 activate :syntax, line_numbers: false
 
 # Methods defined in the helpers block are available in templates

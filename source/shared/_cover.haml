@@ -1,0 +1,16 @@
+%nav.main-nav.overlay.clearfix
+  - if blog_settings.logo.present?
+    %a.blog-logo{href: home_path}
+      = image_tag blog_settings.logo, alt: blog_settings.name
+  - if blog_settings.navigation
+    %a.menu-button.icon-menu{href: '#'}
+      %span.word Menu
+.vertical
+  .main-header-content.inner
+    %h1.page-title= blog_settings.name
+    %h2.page-description= blog_settings.description
+    %h3.page-call-to-action= blog_settings.cta
+    %a{:href => "https://cognitelabs.leadpages.co/leadbox/144da7673f72a2%3A17d7e942bb46dc/5727950116749312/", :style => "color: rgb(255, 255, 255); text-decoration: none; font-family: Helvetica, Arial, sans-serif; font-weight: bold; font-size: 16px; line-height: 20px; padding: 10px; display: inline-block; max-width: 300px; border-radius: 5px; text-shadow: rgba(0, 0, 0, 0.247059) 0px -1px 1px; box-shadow: rgba(255, 255, 255, 0.498039) 0px 1px 3px inset, rgba(0, 0, 0, 0.498039) 0px 1px 3px; background: rgb(0, 151, 229);", :target => "_blank"} Subscribe Now!
+    %script{"data-config" => "%7B%7D", "data-leadbox" => "144da7673f72a2:17d7e942bb46dc", "data-url" => "https://cognitelabs.leadpages.co/leadbox/144da7673f72a2%3A17d7e942bb46dc/5727950116749312/", :src => "https://cognitelabs.leadpages.co/leadbox-992.js", :type => "text/javascript"}
+%a.scroll-down.icon-arrow-left{href: '#content', data: {offset: '-45'}}
+  %span.hidden Scroll Down
