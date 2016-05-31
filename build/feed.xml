@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Jesse Flores</title>
-  <subtitle>Passionate. Purpose-Driven. Pilgrim.</subtitle>
+  <subtitle>More Prodigal than Pious. This is my Pilgrimage.</subtitle>
   <id>http://jesse-flores.com</id>
   <link href="http://jesse-flores.com"/>
   <link href="http://jesse-flores.com/feed.xml" rel="self"/>
@@ -10,25 +10,21 @@
     <name>Jesse Flores</name>
   </author>
   <entry>
-    <title>test blog post</title>
-    <link rel="alternate" href="http://jesse-flores.com/2016/01/10/testpost/"/>
-    <id>http://jesse-flores.com/2016/01/10/testpost/</id>
+    <title>Test Blog Post</title>
+    <link rel="alternate" href="http://jesse-flores.com/testpost/"/>
+    <id>http://jesse-flores.com/testpost/</id>
     <published>2016-01-09T19:00:00-05:00</published>
-    <updated>2016-03-05T18:25:09-05:00</updated>
+    <updated>2016-05-31T14:15:56-04:00</updated>
     <author>
       <name>Jesse Flores</name>
     </author>
     <summary type="html">This is me writing a new test post
-
-This is a test post
-
-This is me writing a new test post
 </summary>
   </entry>
   <entry>
     <title>Welcome to Ghost</title>
-    <link rel="alternate" href="http://jesse-flores.com/2013/10/26/welcome-to-ghost/"/>
-    <id>http://jesse-flores.com/2013/10/26/welcome-to-ghost/</id>
+    <link rel="alternate" href="http://jesse-flores.com/welcome-to-ghost/"/>
+    <id>http://jesse-flores.com/welcome-to-ghost/</id>
     <published>2013-10-25T20:00:00-04:00</published>
     <updated>2016-01-09T17:33:49-05:00</updated>
     <author>

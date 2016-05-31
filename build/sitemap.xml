@@ -2,49 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://jesse-flores.com/about/index.html</loc>
-    <lastmod>2016-03-05T19:18:05-05:00</lastmod>
+    <lastmod>2016-05-31T14:59:15-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://jesse-flores.com/2013/10/26/welcome-to-ghost/index.html</loc>
+    <loc>http://jesse-flores.com/welcome-to-ghost/index.html</loc>
     <lastmod>2016-01-09T17:33:49-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://jesse-flores.com/2016/01/10/testpost/index.html</loc>
-    <lastmod>2016-03-05T18:25:09-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://jesse-flores.com/index.html</loc>
-    <lastmod>2016-03-05T19:18:05-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://jesse-flores.com/resume/index.html</loc>
-    <lastmod>2016-03-05T19:18:05-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://jesse-flores.com/thank-you/index.html</loc>
-    <lastmod>2016-03-05T19:18:05-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://jesse-flores.com/author/jesse-flores/index.html</loc>
-    <lastmod>2016-03-05T19:18:05-05:00</lastmod>
+    <loc>http://jesse-flores.com/testpost/index.html</loc>
+    <lastmod>2016-05-31T14:15:56-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://jesse-flores.com/tag/getting-started/index.html</loc>
-    <lastmod>2016-03-05T19:18:05-05:00</lastmod>
+    <lastmod>2016-05-31T14:59:15-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://jesse-flores.com/author/jesse-flores/index.html</loc>
+    <lastmod>2016-05-31T14:59:15-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://jesse-flores.com/resume/index.html</loc>
+    <lastmod>2016-05-31T14:59:15-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://jesse-flores.com/thank-you/index.html</loc>
+    <lastmod>2016-05-31T14:59:15-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://jesse-flores.com/index.html</loc>
+    <lastmod>2016-05-31T14:59:15-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
