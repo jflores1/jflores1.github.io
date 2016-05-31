@@ -142,6 +142,12 @@ configure :build do
   ignore 'stylesheets/vendor/*'
 end
 
+configure :deploy do
+  set :skip_build_clean do |path|
+    path =~ /\.git/
+  end
+end
+
 # Middleman Deploy Configurations
 activate :deploy do |deploy|
   deploy.deploy_method = :git
