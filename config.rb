@@ -145,6 +145,6 @@ end
 # Middleman Deploy Configurations
 activate :deploy do |deploy|
   deploy.deploy_method = :git
-  deploy.branch   = 'master'
+  deploy.branch   = 'gh-pages'
   deploy.build_before = true
 end
