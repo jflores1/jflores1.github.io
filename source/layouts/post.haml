@@ -2,7 +2,16 @@
   %header.main-header.post-head{cover}
     = partial('shared/cover')
 
-  %main.content{role: :main}
+  %main.content.container{role: :main}
+    %aside.sidebar#sidebar
+      .pre-header
+        %figure.author-image
+          %a.img{href: author_path, style: "background-image: url(#{gravatar})"}
+            %span.hidden #{blog_author.name}'s Picture
+        %section.author
+          %h4
+            %a{href: author_path}= blog_author.name
+          %p= blog_author.bio if blog_author.bio.present?
     %article.post
       %header.post-header
         %h1.post-title= current_article.title

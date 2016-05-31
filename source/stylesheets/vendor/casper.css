@@ -1117,7 +1117,7 @@ body:not(.post-template) .post-title {
 
 
 /* The author credit area after the post */
-.post-footer {
+.pre-header, .post-footer {
     position: relative;
     margin: 6rem 0 0 0;
     padding: 6rem 0 0 0;
@@ -1736,6 +1736,10 @@ body:not(.post-template) .post-title {
         border-left: none;
     }
 
+    #sidebar {
+        display: none;
+    }
+
 }
 
 
@@ -1997,6 +2001,10 @@ body:not(.post-template) .post-title {
 
     .read-next .post {
         width: 100%;
+    }
+
+    #sidebar {
+        display: none;
     }
 
 }

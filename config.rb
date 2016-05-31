@@ -6,7 +6,7 @@ config[:casper] = {
   blog: {
     url: 'http://jesse-flores.com',
     name: 'Jesse Flores',
-    description: 'Passionate. Purpose-Driven. Pilgrim.',
+    description: 'More Prodigal than Pious. This is my Pilgrimage.',
     cta: 'Life is a journey. Let\'s make it together. <br/> Get My Latest Experiments, Ideas, and Musings Delivered Straight to Your Inbox!',
     date_format: '%d %B %Y',
     navigation: true,
@@ -14,7 +14,7 @@ config[:casper] = {
   },
   author: {
     name: 'Jesse Flores',
-    bio: nil, # Optional
+    bio: "This is my bio", # Optional
     location: nil, # Optional
     website: 'http://jesse-flores.com', # Optional
     gravatar_email: 'jesse.flores@me.com', # Optional
@@ -83,7 +83,7 @@ activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
   # blog.prefix = "blog"
 
-  # blog.permalink = "{year}/{month}/{day}/{title}.html"
+  blog.permalink = "{title}.html"
   # Matcher for blog source files
   blog.sources = "articles/{year}-{month}-{day}-{title}.html"
   blog.taglink = "tag/{tag}.html"
@@ -124,13 +124,13 @@ activate :syntax, line_numbers: false
 # Build-specific configuration
 configure :build do
   # Minify CSS on build
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
 
   # Enable cache buster
-  # activate :asset_hash
+  activate :asset_hash
 
   # Use relative URLs
   # activate :relative_assets

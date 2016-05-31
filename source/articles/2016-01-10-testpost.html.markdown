@@ -1,11 +1,7 @@
 ---
-title: test blog post
+title: Test Blog Post
 date: 2016-1-10
 layout: post
 cover: cover__main.jpg
 ---
-This is me writing a new test post
-
-# This is a test post
-
 This is me writing a new test post

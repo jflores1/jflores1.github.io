@@ -30,3 +30,21 @@ a {
 .post-title a {
 	color: #4A4A4A;
 }
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#sidebar {
+	width: 20%;
+	float: left;
+	max-width: 240px;
+
+	.author {
+		h4, p {
+			text-align: center;
+			font-size: 0.8em;
+		}
+	}
+}
