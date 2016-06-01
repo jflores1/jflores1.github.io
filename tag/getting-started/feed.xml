@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Jesse Flores: Getting Started</title>
+  <subtitle>Posts tagged with Getting Started</subtitle>
+  <id>http://jesse-flores.com</id>
+  <link href="http://jesse-flores.com"/>
+  <link href="http://jesse-flores.com/tag/getting-started/feed.xml" rel="self"/>
+  <updated>2016-05-31T20:00:00-04:00</updated>
+  <author>
+    <name>Jesse Flores</name>
+  </author>
+  <entry>
+    <title>Hello, Jesus</title>
+    <link rel="alternate" href="http://jesse-flores.com/hello-jesus/"/>
+    <id>http://jesse-flores.com/hello-jesus/</id>
+    <published>2016-05-31T20:00:00-04:00</published>
+    <updated>2016-06-01T07:12:20-04:00</updated>
+    <author>
+      <name>Jesse Flores</name>
+    </author>
+    <summary type="html">Ok, so it’s probably not wise to start a new blog with a corny pun. Especially one that is probably only going to be funny to the very (very) select group of people who know something about computer programming and recognize that it’s impossible to start</summary>
+  </entry>
+</feed>
