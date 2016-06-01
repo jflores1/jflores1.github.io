@@ -6,15 +6,15 @@ config[:casper] = {
   blog: {
     url: 'http://jesse-flores.com',
     name: 'Jesse Flores',
-    description: 'More Prodigal than Pious. This is my Pilgrimage.',
-    cta: 'Life is a journey. Let\'s make it together. <br/> Get My Latest Experiments, Ideas, and Musings Delivered Straight to Your Inbox!',
+    description: 'A Prodigal Pilgrim',
+    cta: 'Not sure where Emmaus is, but I\'d love it if you\'d walk with me while I figure it out',
     date_format: '%d %B %Y',
     navigation: true,
     logo: nil # Optional
   },
   author: {
     name: 'Jesse Flores',
-    bio: "This is my bio", # Optional
+    bio: "I am a pilgrim - more prodigal than pious. Sharing my journey with you.", # Optional
     location: nil, # Optional
     website: 'http://jesse-flores.com', # Optional
     gravatar_email: 'jesse.flores@me.com', # Optional

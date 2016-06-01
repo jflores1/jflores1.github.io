@@ -79,7 +79,7 @@ module MiddlemanCasperHelpers
       { style: "background-image: url(#{image_path(src)}); max-height:533px;" }
     else
       # { class: 'no-cover' }
-      { style: "background-image: url('/images/cover__main.jpg'); max-height: 533px;"}
+      { style: "background-image: url('/images/cover__backpacking.jpg'); max-height: 533px;"}
     end
   end
   def cover?(page = current_page)

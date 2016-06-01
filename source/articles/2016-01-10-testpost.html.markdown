@@ -3,5 +3,6 @@ title: Test Blog Post
 date: 2016-1-10
 layout: post
 cover: cover__main.jpg
+published: false
 ---
 This is me writing a new test post
